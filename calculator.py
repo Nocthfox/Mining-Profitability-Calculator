@@ -32,7 +32,7 @@ class MiningProfitabilityCalculator:
 
             total_profitability += profit
 
-        # Print total profitability.
+        # Print total profitability:
         print("Total Profitability:", total_profitability)
 
     def calculate_mining_reward(self, hash_rate):
