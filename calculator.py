@@ -21,7 +21,7 @@ class MiningProfitabilityCalculator:
             profit = mining_reward - electricity_cost - pool_fee
             roi = hardware_cost / profit if profit > 0 else None
 
-            # Print profitability metrics
+            # Print profitability metrics:
             print("Mining Hardware:", hardware_name)
             print("Mining Reward:", mining_reward)
             print("Electricity Cost:", electricity_cost)
