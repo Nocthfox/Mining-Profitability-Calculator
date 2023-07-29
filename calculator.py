@@ -41,12 +41,12 @@ class MiningProfitabilityCalculator:
         return mining_reward
 
     def calculate_electricity_cost(self, power_consumption):
-        # Calculate electricity cost based on power consumption and electricity cost per unit
+        # Calculate electricity cost based on power consumption and electricity cost per unit:
         electricity_cost = power_consumption * self.electricity_cost
         return electricity_cost
 
     def calculate_pool_fee(self, mining_reward):
-        # Calculate pool fee based on mining reward and pool fee percentage
+        # Calculate pool fee based on mining reward and pool fee percentage:
         pool_fee = mining_reward * self.pool_fee
         return pool_fee
 
