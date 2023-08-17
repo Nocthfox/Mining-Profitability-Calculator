@@ -14,7 +14,7 @@ class MiningProfitabilityCalculator:
             power_consumption = hardware['power_consumption']
             hardware_cost = hardware['cost']
 
-            # Calculate profitability metrics:
+            # Calculate profitability metrics
             mining_reward = self.calculate_mining_reward(hash_rate)
             electricity_cost = self.calculate_electricity_cost(power_consumption)
             pool_fee = self.calculate_pool_fee(mining_reward)
